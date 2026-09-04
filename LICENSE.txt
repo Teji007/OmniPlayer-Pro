@@ -1,0 +1,20 @@
+OMNIPLAYER PRO — PROPRIETARY LICENSE
+Copyright (c) 2026 Tejinder Pal Singh. All rights reserved.
+
+This license applies to the original OmniPlayer Pro source code, original artwork,
+original application branding, and original materials created by Tejinder Pal Singh,
+except for third-party components identified in THIRD_PARTY_NOTICES.txt.
+
+1. The original software is proprietary unless a separate written license from the
+   copyright holder states otherwise.
+2. You may use, evaluate, modify, and build the software for your own purposes only
+   to the extent permitted by a written license from the copyright holder.
+3. Redistribution, commercial sale, hosting, sublicensing, or incorporation into a
+   commercial product requires permission from the copyright holder and compliance
+   with every applicable third-party license.
+4. No third-party license is granted by this notice.
+5. The software is provided "AS IS", without warranties or guarantees, to the
+   maximum extent permitted by law.
+
+NOTICE: This proprietary notice does NOT override any open-source obligations that
+apply to third-party software. See THIRD_PARTY_NOTICES.txt.

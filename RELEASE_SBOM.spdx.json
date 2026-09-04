@@ -1,0 +1,330 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "OmniPlayer Pro Classic 29 Release SBOM",
+  "documentNamespace": "https://omniplayer.invalid/spdx/omniplayer-pro-classic-29-2026-09-04",
+  "creator": "Person: Tejinder Pal Singh",
+  "created": "2026-09-04T00:00:00Z",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-PyQt6",
+      "name": "PyQt6",
+      "versionInfo": "6.11.0",
+      "licenseConcluded": "GPL-3.0-only OR Riverbank Commercial",
+      "licenseDeclared": "GPL-3.0-only OR Riverbank Commercial",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "GUI/bindings; commercial license required for closed/proprietary distribution; source=Riverbank / PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-PyQt6-Qt6",
+      "name": "PyQt6-Qt6",
+      "versionInfo": "6.11.2",
+      "licenseConcluded": "LGPL-3.0-or-later (open-source Qt build; module exceptions apply)",
+      "licenseDeclared": "LGPL-3.0-or-later (open-source Qt build; module exceptions apply)",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Qt runtime shipped through wheel; source=Qt / PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-PyQt6-sip",
+      "name": "PyQt6-sip",
+      "versionInfo": "13.12.0",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "SIP support runtime; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-faster-whisper",
+      "name": "faster-whisper",
+      "versionInfo": "1.2.1",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "AI transcription/subtitle engine; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-PyAV",
+      "name": "PyAV",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "BSD-3-Clause + bundled FFmpeg LGPL/GPL components as applicable",
+      "licenseDeclared": "BSD-3-Clause + bundled FFmpeg LGPL/GPL components as applicable",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "faster-whisper audio decoding transitive dependency; source=PyPI / PyAV"
+    },
+    {
+      "SPDXID": "SPDXRef-ctranslate2",
+      "name": "ctranslate2",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "faster-whisper runtime dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-tokenizers",
+      "name": "tokenizers",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "faster-whisper transitive dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-huggingface-hub",
+      "name": "huggingface-hub",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "faster-whisper model download/cache dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-onnxruntime",
+      "name": "onnxruntime",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "may be used by faster-whisper VAD path depending on extras/environment; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-numpy",
+      "name": "numpy",
+      "versionInfo": "2.5.0",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "AI numeric arrays; source=NumPy / PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-cryptography",
+      "name": "cryptography",
+      "versionInfo": "46.0.4",
+      "licenseConcluded": "Apache-2.0 OR BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 OR BSD-3-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Encrypted vault; source=PyPI / pyca"
+    },
+    {
+      "SPDXID": "SPDXRef-yt-dlp",
+      "name": "yt-dlp",
+      "versionInfo": "2026.8.19",
+      "licenseConcluded": "Unlicense (PyPI wheel/source)",
+      "licenseDeclared": "Unlicense (PyPI wheel/source)",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Online media extraction; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-pypresence",
+      "name": "pypresence",
+      "versionInfo": "4.6.2",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Discord Rich Presence; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-SpeechRecognition",
+      "name": "SpeechRecognition",
+      "versionInfo": "3.17.0",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Voice control; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-SpeechRecognition-bundled-FLAC-binaries",
+      "name": "SpeechRecognition bundled FLAC binaries",
+      "versionInfo": "3.17.0 package data",
+      "licenseConcluded": "GPL-2.0",
+      "licenseDeclared": "GPL-2.0",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Only if these package data binaries are redistributed; source=SpeechRecognition PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-PyChromecast",
+      "name": "PyChromecast",
+      "versionInfo": "14.0.10",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Chromecast control/discovery; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-requests",
+      "name": "requests",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "PyChromecast transitive dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-protobuf",
+      "name": "protobuf",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "3-Clause BSD",
+      "licenseDeclared": "3-Clause BSD",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "PyChromecast transitive dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-zeroconf",
+      "name": "zeroconf",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "PyChromecast transitive dependency; verify exact package and version; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-pynvml",
+      "name": "pynvml",
+      "versionInfo": "13.0.1",
+      "licenseConcluded": "BSD-3-Clause; deprecated package",
+      "licenseDeclared": "BSD-3-Clause; deprecated package",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "GPU telemetry as currently coded; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-demucs",
+      "name": "demucs",
+      "versionInfo": "4.1.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "AI stem separation subprocess; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-torch",
+      "name": "torch",
+      "versionInfo": "2.14.0",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs runtime; select actual CPU/CUDA build; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-torchaudio",
+      "name": "torchaudio",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs runtime; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-dora-search",
+      "name": "dora-search",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs runtime dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-einops",
+      "name": "einops",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs runtime dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-julius",
+      "name": "julius",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs runtime dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-lameenc",
+      "name": "lameenc",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "LGPL-2.1-or-later or package-specific; verify exact release",
+      "licenseDeclared": "LGPL-2.1-or-later or package-specific; verify exact release",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs audio encoding dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-openunmix",
+      "name": "openunmix",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-PyYAML",
+      "name": "PyYAML",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs configuration dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-tqdm",
+      "name": "tqdm",
+      "versionInfo": "build-resolved",
+      "licenseConcluded": "MPL-2.0 and BSD-3-Clause components; verify exact distribution notices",
+      "licenseDeclared": "MPL-2.0 and BSD-3-Clause components; verify exact distribution notices",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Demucs/progress dependency; source=PyPI"
+    },
+    {
+      "SPDXID": "SPDXRef-FFmpeg",
+      "name": "FFmpeg",
+      "versionInfo": "7.x Windows verified build",
+      "licenseConcluded": "LGPL-2.1-or-later if no GPL components enabled; GPL-2.0-or-later if GPL build",
+      "licenseDeclared": "LGPL-2.1-or-later if no GPL components enabled; GPL-2.0-or-later if GPL build",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Core media processing/encoding; source=FFmpeg official"
+    },
+    {
+      "SPDXID": "SPDXRef-ffprobe",
+      "name": "ffprobe",
+      "versionInfo": "same verified FFmpeg build",
+      "licenseConcluded": "same as FFmpeg",
+      "licenseDeclared": "same as FFmpeg",
+      "downloadLocation": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "comment": "Media inspection; source=FFmpeg official"
+    }
+  ]
+}

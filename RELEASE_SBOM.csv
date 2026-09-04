@@ -1,0 +1,33 @@
+Component,Version/build,License,Role/compliance,Source
+PyQt6,6.11.0,GPL-3.0-only OR Riverbank Commercial,GUI/bindings; commercial license required for closed/proprietary distribution,Riverbank / PyPI
+PyQt6-Qt6,6.11.2,LGPL-3.0-or-later (open-source Qt build; module exceptions apply),Qt runtime shipped through wheel,Qt / PyPI
+PyQt6-sip,13.12.0,BSD-2-Clause,SIP support runtime,PyPI
+faster-whisper,1.2.1,MIT,AI transcription/subtitle engine,PyPI
+PyAV,build-resolved,BSD-3-Clause + bundled FFmpeg LGPL/GPL components as applicable,faster-whisper audio decoding transitive dependency,PyPI / PyAV
+ctranslate2,build-resolved,MIT,faster-whisper runtime dependency,PyPI
+tokenizers,build-resolved,Apache-2.0,faster-whisper transitive dependency,PyPI
+huggingface-hub,build-resolved,Apache-2.0,faster-whisper model download/cache dependency,PyPI
+onnxruntime,build-resolved,MIT,may be used by faster-whisper VAD path depending on extras/environment,PyPI
+numpy,2.5.0,BSD-3-Clause,AI numeric arrays,NumPy / PyPI
+cryptography,46.0.4,Apache-2.0 OR BSD-3-Clause,Encrypted vault,PyPI / pyca
+yt-dlp,2026.8.19,Unlicense (PyPI wheel/source),Online media extraction,PyPI
+pypresence,4.6.2,MIT,Discord Rich Presence,PyPI
+SpeechRecognition,3.17.0,BSD-3-Clause,Voice control,PyPI
+SpeechRecognition bundled FLAC binaries,3.17.0 package data,GPL-2.0,Only if these package data binaries are redistributed,SpeechRecognition PyPI
+PyChromecast,14.0.10,MIT,Chromecast control/discovery,PyPI
+requests,build-resolved,Apache-2.0,PyChromecast transitive dependency,PyPI
+protobuf,build-resolved,3-Clause BSD,PyChromecast transitive dependency,PyPI
+zeroconf,build-resolved,LGPL-2.1-or-later,PyChromecast transitive dependency; verify exact package and version,PyPI
+pynvml,13.0.1,BSD-3-Clause; deprecated package,GPU telemetry as currently coded,PyPI
+demucs,4.1.0,MIT,AI stem separation subprocess,PyPI
+torch,2.14.0,BSD-3-Clause,Demucs runtime; select actual CPU/CUDA build,PyPI
+torchaudio,build-resolved,BSD-2-Clause,Demucs runtime,PyPI
+dora-search,build-resolved,MIT,Demucs runtime dependency,PyPI
+einops,build-resolved,MIT,Demucs runtime dependency,PyPI
+julius,build-resolved,MIT,Demucs runtime dependency,PyPI
+lameenc,build-resolved,LGPL-2.1-or-later or package-specific; verify exact release,Demucs audio encoding dependency,PyPI
+openunmix,build-resolved,MIT,Demucs dependency,PyPI
+PyYAML,build-resolved,MIT,Demucs configuration dependency,PyPI
+tqdm,build-resolved,MPL-2.0 and BSD-3-Clause components; verify exact distribution notices,Demucs/progress dependency,PyPI
+FFmpeg,7.x Windows verified build,LGPL-2.1-or-later if no GPL components enabled; GPL-2.0-or-later if GPL build,Core media processing/encoding,FFmpeg official
+ffprobe,same verified FFmpeg build,same as FFmpeg,Media inspection,FFmpeg official

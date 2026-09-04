@@ -1,0 +1,15 @@
+# OmniPlayer Pro Classic 29 — release pinset
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.2
+PyQt6-sip==13.12.0
+faster-whisper==1.2.1
+numpy==2.5.0
+cryptography==46.0.4
+yt-dlp==2026.8.19
+pypresence==4.6.2
+SpeechRecognition==3.17.0
+PyChromecast==14.0.10
+pynvml==13.0.1
+demucs==4.1.0
+torch==2.14.0
+# Resolver should freeze all transitive dependencies into requirements-lock.txt during the actual Windows build.

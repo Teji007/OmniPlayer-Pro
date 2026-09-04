@@ -1,0 +1,67 @@
+OMNIPLAYER PRO — END USER LICENSE AGREEMENT (TEMPLATE)
+Version 1.0 — 2026
+Copyright (c) 2026 Tejinder Pal Singh. All rights reserved.
+
+IMPORTANT: This is a distribution-ready template, not legal advice. Have qualified
+counsel review it for your business, country, payment model, refund policy,
+consumer-protection obligations, privacy practices, and bundled dependencies.
+
+1. LICENSE GRANT
+Subject to this Agreement, Tejinder Pal Singh grants the purchaser a limited,
+non-exclusive, non-transferable license to install and use OmniPlayer Pro on devices
+owned or controlled by the purchaser, subject to the purchased edition and activation
+terms, if any.
+
+2. OWNERSHIP
+The original OmniPlayer Pro code, branding, artwork, documentation and other original
+materials remain the property of Tejinder Pal Singh except where third-party rights
+apply.
+
+3. THIRD-PARTY SOFTWARE
+The application may include or invoke third-party software. Those components are
+licensed under their respective terms, which are listed in THIRD_PARTY_NOTICES.txt.
+Those third-party terms control where required by law or by their licenses.
+
+4. REVERSE ENGINEERING
+Nothing in this Agreement is intended to prohibit rights that cannot lawfully be
+restricted in the applicable jurisdiction, including rights required by applicable
+open-source licenses.
+
+5. USER CONTENT AND MEDIA
+The user is responsible for ensuring that files, streams, recordings, downloads,
+subtitles, metadata and other content processed with the software are lawful and that
+the user has the required rights and permissions.
+
+6. EXTERNAL SERVICES
+Features such as online metadata, video-site access, casting, or speech recognition
+may rely on external services whose own terms and privacy policies apply.
+
+7. PRIVACY
+The operator should publish a separate privacy policy describing telemetry, analytics,
+crash reports, account data, online API calls and other personal-data processing before
+collecting such information.
+
+8. WARRANTY DISCLAIMER
+To the maximum extent permitted by law, the software is provided AS IS and AS
+AVAILABLE without implied warranties. Nothing here excludes rights that cannot legally
+be excluded.
+
+9. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law, the publisher shall not be liable
+for indirect, incidental, special, consequential, or loss-of-data damages arising from
+use of the software, subject to mandatory consumer protections.
+
+10. TERMINATION
+This license ends when the user materially breaches this Agreement, subject to any
+mandatory rights under applicable law.
+
+11. GOVERNING LAW / VENUE
+COMPLETE THIS SECTION WITH YOUR ACTUAL LEGAL ENTITY, JURISDICTION AND VENUE BEFORE
+PUBLISHING.
+
+12. CONTACT
+Copyright holder: Tejinder Pal Singh
+Contact: COMPLETE BEFORE PUBLICATION
+Website: COMPLETE BEFORE PUBLICATION
+
+END OF TEMPLATE

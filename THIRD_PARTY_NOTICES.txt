@@ -1,0 +1,69 @@
+OMNIPLAYER PRO — THIRD-PARTY SOFTWARE NOTICES
+Copyright (c) 2026 Tejinder Pal Singh for the original application materials.
+
+This application uses, imports, bundles, invokes, or may optionally integrate the
+following third-party components. Exact versions and bundled files should be recorded
+for every release build, together with the corresponding license texts.
+
+PyQt6 / Riverbank Computing
+- PyQt6 is dual licensed under GPL v3 or the Riverbank Commercial License.
+- PyQt is NOT licensed under the LGPL.
+- Proprietary/commercial distribution generally requires a Riverbank commercial PyQt
+  license unless the application is distributed under a compatible GPL arrangement.
+- Official licensing information: https://www.riverbankcomputing.com/software/pyqt
+- Commercial licensing: https://www.riverbankcomputing.com/commercial/pyqt
+
+Qt 6
+- Qt includes components under LGPL/GPL and other licenses depending on module/build.
+- The exact Qt modules supplied with the PyQt wheel or bundled application must be
+  inventoried and their applicable notices preserved.
+
+FFmpeg
+- FFmpeg is generally LGPL v2.1 or later, but optional components/builds can be GPL.
+- For redistributing an FFmpeg build, retain the exact corresponding license/source
+  obligations for the build actually shipped.
+- Official legal guidance: https://ffmpeg.org/legal.html
+
+faster-whisper
+- faster-whisper is MIT licensed. Its dependency tree can include additional licenses.
+- Record the exact installed/bundled version and dependency licenses for each release.
+
+yt-dlp
+- The source/PyPI distribution is under the Unlicense, while some bundled executables
+  can contain differently licensed components. Use the correct notices for the exact
+  artifact distributed.
+- Official licensing: https://github.com/yt-dlp/yt-dlp
+
+PyChromecast
+- Record the exact version and include its upstream license text and dependency notices
+  in each redistribution package.
+
+SpeechRecognition
+- Record the exact version and include its upstream license text.
+
+cryptography
+- Record the exact version and include its upstream license and dependency notices.
+
+pynvml
+- Record the exact version and include its upstream license text.
+
+Python standard library
+- Python is distributed under the Python Software Foundation license terms. This
+  application is a Python application and its runtime/distribution must satisfy the
+  applicable Python and packaging terms.
+
+IMPORTANT DISTRIBUTION CHECKLIST
+1. Generate a bill of materials (BOM) containing exact package versions.
+2. Keep the license text for every dependency actually shipped in the installer.
+3. Record whether each optional component is bundled, dynamically linked, downloaded,
+   or merely imported when installed by the user.
+4. For FFmpeg, preserve the exact source/license obligations for the FFmpeg build used.
+5. For PyQt6 in a proprietary commercial application, obtain the required commercial
+   Riverbank license before distributing PyQt6 under a proprietary model.
+6. Do not imply endorsement or trademark ownership by third-party projects.
+7. Add a privacy policy, terms of sale/refund policy, and any required cookie/analytics
+   notices for the websites and services actually operated.
+
+This file is a notice/checklist and does not replace the full upstream license texts.
+The release package should include the exact license texts required for the versions
+and binaries shipped with that release.
