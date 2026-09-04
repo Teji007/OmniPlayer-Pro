@@ -1,0 +1,47 @@
+PrerequisitesPython 3.10 or 3.11 (64-bit) is recommended.FFmpeg & FFprobe
+: Download FFmpeg from gyan.dev or install it via winget (winget install Gyan.FFmpeg). 
+: Ensure ffmpeg.exe and ffprobe.exe are added to your system's PATH.  Real-ESRGAN Binary (Optional)
+: Place realesrgan-ncnn-vulkan.exe in the application root directory if you plan to use AI 4K upscaling.
+
+Step 1: Set Up a Virtual EnvironmentOpen PowerShell or Command Prompt inside the Media Player folder:PowerShellpython -m venv venv
+.\venv\Scripts\activate
+
+Step 2: Install Python DependenciesInstall the core GUI library and feature packages:PowerShell# Core GUI Framework
+pip install PyQt6
+
+# AI Subtitle Engine & Cryptographic Vault
+pip install faster-whisper numpy cryptography
+
+# Networking, Streaming & Integrations
+pip install yt-dlp pypresence pychromecast zeroconf
+
+# Hardware Monitoring
+pip install nvidia-ml-py
+(Note: In source code, the application specifically prompts for cryptography, yt-dlp, and pychromecast zeroconf when missing).  
+
+For optional features like voice control and AI stem isolation, install:PowerShell# Voice Control (Microphone Listener)
+pip install SpeechRecognition pyaudio
+
+# Stem Separation (Demucs AI)
+pip install torch demucs
+(The app prompts to install SpeechRecognition pyaudio for voice control and notes that torch and demucs are required for stem separation).  
+
+Step 3: requirements.txt (Alternative Quick Setup)You can also save the following list into a requirements.txt file in your app directory:PlaintextPyQt6
+faster-whisper
+numpy
+cryptography
+yt-dlp
+pypresence
+pychromecast
+zeroconf
+nvidia-ml-py
+SpeechRecognition
+pyaudio
+torch
+demucs
+
+Then install all packages simultaneously:PowerShellpip install -r requirements.txt
+
+Step 4: Launch the ApplicationRun the main Python script:PowerShellpython OmniPlayer_Pro_Classic29.py
+To run with GPU acceleration for Whisper AI, ensure the NVIDIA CUDA/cuDNN DLLs (cublas64_*.dll, cudnn_*.dll) remain in your script directory or inside your Python site-packages nvidia folder, as the script automatically scans these directories at startup.  You can pass a media file directly via the command line on launch
+: PowerShellpython OmniPlayer_Pro_Classic29.py "C:\path\to\your_video.mp4"
